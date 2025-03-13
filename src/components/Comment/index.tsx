@@ -3,6 +3,7 @@ import type { ThemeConfig } from '@docusaurus/preset-classic'
 import { useColorMode, useThemeConfig } from '@docusaurus/theme-common'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Giscus, { type GiscusProps, type Theme } from '@giscus/react'
+import React from 'react'
 
 export type GiscusConfig = GiscusProps & { darkTheme: Theme }
 

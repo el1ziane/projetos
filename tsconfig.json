@@ -3,6 +3,7 @@
   "compilerOptions": {
     "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
+    "jsx": "react",
     "resolveJsonModule": true,
     "allowUnreachableCode": false,
     "exactOptionalPropertyTypes": false,

@@ -4,7 +4,7 @@ const sidebars: SidebarsConfig = {
   skill: [
     'skill/introduction',
     {
-      label: 'Docusaurus 主题魔改',
+      label: 'Modificação do Tema Docusaurus',
       type: 'category',
       link: {
         type: 'doc',
@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
-      label: '代码规范',
+      label: 'Normas de Código',
       type: 'category',
       link: {
         type: 'doc',
@@ -110,7 +110,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
-      label: '编程语言',
+      label: 'Linguagens de Programação',
       type: 'category',
       link: { type: 'generated-index' },
       items: [
@@ -163,7 +163,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
-      label: '算法',
+      label: 'Algoritmos',
       type: 'category',
       link: {
         type: 'doc',
@@ -177,17 +177,17 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
-      label: '逆向',
+      label: 'Engenharia Reversa',
       type: 'category',
       link: {
-        title: '逆向笔记',
-        description: 'Web逆向与安卓逆向笔记',
+        title: 'Notas de Engenharia Reversa',
+        description: 'Notas sobre engenharia reversa na web e no Android',
         type: 'generated-index',
         keywords: ['reverse', 'web', 'android', 'frida'],
       },
       items: [
         {
-          label: '安卓',
+          label: 'Android',
           type: 'category',
           link: { type: 'generated-index' },
           items: [
@@ -208,7 +208,7 @@ const sidebars: SidebarsConfig = {
           ],
         },
         {
-          label: '密码学',
+          label: 'Criptografia',
           type: 'category',
           items: [
             {
@@ -231,7 +231,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
-      label: '数据库',
+      label: 'Banco de Dados',
       type: 'category',
       link: {
         // title: '',
@@ -299,7 +299,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     {
-      label: '杂项',
+      label: 'Diversos',
       type: 'category',
       link: { type: 'generated-index' },
       items: [

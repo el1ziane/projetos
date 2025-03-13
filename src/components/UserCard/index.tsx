@@ -11,6 +11,7 @@ import { cn } from '@site/src/lib/utils'
 import { projects } from '@site/data/projects'
 
 import styles from './styles.module.css'
+import React from 'react'
 
 type Count = {
   blog: number

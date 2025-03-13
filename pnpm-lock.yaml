@@ -108,6 +108,9 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.16
         version: 0.5.16(tailwindcss@3.4.17)
+      '@types/node':
+        specifier: ^22.13.10
+        version: 22.13.10
       '@typescript-eslint/eslint-plugin':
         specifier: 8.20.0
         version: 8.20.0(@typescript-eslint/parser@8.20.0(eslint@9.18.0(jiti@1.21.7))(typescript@5.7.3))(eslint@9.18.0(jiti@1.21.7))(typescript@5.7.3)
@@ -1724,8 +1727,8 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
-  '@types/node@20.5.9':
-    resolution: {integrity: sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==}
+  '@types/node@22.13.10':
+    resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
 
   '@types/parse-json@4.0.0':
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
@@ -6171,6 +6174,9 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+
   unicode-canonical-property-names-ecmascript@2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
     engines: {node: '>=4'}
@@ -8675,7 +8681,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
       '@types/yargs': 17.0.24
       chalk: 4.1.2
 
@@ -8991,20 +8997,20 @@ snapshots:
   '@types/body-parser@1.19.2':
     dependencies:
       '@types/connect': 3.4.36
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/bonjour@3.5.10':
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/connect-history-api-fallback@1.5.1':
     dependencies:
       '@types/express-serve-static-core': 4.17.36
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/connect@3.4.36':
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/debug@4.1.8':
     dependencies:
@@ -9030,7 +9036,7 @@ snapshots:
 
   '@types/express-serve-static-core@4.17.36':
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
       '@types/qs': 6.9.8
       '@types/range-parser': 1.2.4
       '@types/send': 0.17.1
@@ -9058,7 +9064,7 @@ snapshots:
 
   '@types/http-proxy@1.17.11':
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/istanbul-lib-coverage@2.0.4': {}
 
@@ -9088,7 +9094,9 @@ snapshots:
 
   '@types/node@17.0.45': {}
 
-  '@types/node@20.5.9': {}
+  '@types/node@22.13.10':
+    dependencies:
+      undici-types: 6.20.0
 
   '@types/parse-json@4.0.0': {}
 
@@ -9125,20 +9133,20 @@ snapshots:
 
   '@types/resolve@1.17.1':
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/retry@0.12.0': {}
 
   '@types/sax@1.2.6':
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/scheduler@0.16.3': {}
 
   '@types/send@0.17.1':
     dependencies:
       '@types/mime': 1.3.2
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/serve-index@1.9.1':
     dependencies:
@@ -9148,11 +9156,11 @@ snapshots:
     dependencies:
       '@types/http-errors': 2.0.1
       '@types/mime': 3.0.1
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/sockjs@0.3.33':
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/trusted-types@2.0.3': {}
 
@@ -9162,7 +9170,7 @@ snapshots:
 
   '@types/ws@8.5.5':
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
 
   '@types/yargs-parser@21.0.0': {}
 
@@ -10667,7 +10675,7 @@ snapshots:
 
   eval@0.1.8:
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
       require-like: 0.1.2
 
   eventemitter3@4.0.7: {}
@@ -11678,7 +11686,7 @@ snapshots:
   jest-util@29.6.3:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
@@ -11686,19 +11694,19 @@ snapshots:
 
   jest-worker@26.6.2:
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
       merge-stream: 2.0.0
       supports-color: 7.2.0
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
   jest-worker@29.6.4:
     dependencies:
-      '@types/node': 20.5.9
+      '@types/node': 22.13.10
       jest-util: 29.6.3
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -14509,6 +14517,8 @@ snapshots:
       has-bigints: 1.0.2
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
+
+  undici-types@6.20.0: {}
 
   unicode-canonical-property-names-ecmascript@2.0.0: {}
 
