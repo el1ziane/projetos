@@ -81,7 +81,7 @@ export default function Hero() {
         </motion.div>
       </div>
       <motion.div className={styles.background}>
-        <img src={heroImage} alt="Minha imagem" className={styles.heroImage} />
+        <img src="/img/me.png" alt="Minha imagem" className={styles.heroImage} />
         <Circle />
       </motion.div>
     </motion.div>
