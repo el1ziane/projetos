@@ -8,8 +8,6 @@ tags: [HTML, Parágrafos, Símbolos, Emojis]
 keywords: [HTML, Parágrafos, Símbolos, Emojis, Programação, Web]
 ---
 
-### Parágrafos/Quebras e Símbolos
-
 - **Parágrafos e Quebras**
     
     Ao escrever um parágrafo `<p></p>` em um arquivo HTML, é preciso observar:
@@ -22,7 +20,7 @@ keywords: [HTML, Parágrafos, Símbolos, Emojis, Programação, Web]
     2. `&lt;/p&gt;` para a tag `</p>`.
     3. `&lt;br&gt;` para `<br>`.
     
-    ### Código da aula
+    ### Exemplo de código
     
     ```html
     <!DOCTYPE html>
@@ -67,11 +65,9 @@ keywords: [HTML, Parágrafos, Símbolos, Emojis, Programação, Web]
         </p>
     ```
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/be170603-abe1-40f9-afdb-cee115e92138/966dd978-58ea-427d-9ae0-89ec23fff32b/Untitled.png)
-    
     Para adicionar um emoji, basta buscar pelo seu código em sites como o [Emojipedia](https://emojipedia.org/) e colocar o seguinte comando antes do código do emoji: `&#x`.
     
-    ### Exemplo com o código da aula:
+    ### Exemplo de código:
     
     ```html
     <p>Vamos adicionar alguns emojis:

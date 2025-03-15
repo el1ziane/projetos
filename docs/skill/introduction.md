@@ -1,29 +1,23 @@
 ---
 id: introduction
 slug: /skill
-title: 技术笔记
+title: Notas Técnicas
 keywords:
-  - 前端
-  - 后端
-  - Vue
-  - React
-  - JavaScript
-  - Typescript
-  - 逆向
-  - HTTP
-  - 算法
+- Web
+- IA
+- Python
+- Html e Css
+- Node
+- HTTP
+- Algoritmos
 ---
 
-本页面为个人学习中所涉及相关技术栈的笔记汇总，包含但不限于
+Esta página é um resumo das anotações sobre as tecnologias que estou estudando ou estudei, incluindo mas não se limitando a:
 
 - Web
-- 前端
-- 后端
-- Vue
-- React
-- JavaScript & TypeScript
+- IA
+- Python
+- Html e Css
 - Node
-- 安卓
-- 逆向
 - HTTP
-- 算法
+- Algoritmos

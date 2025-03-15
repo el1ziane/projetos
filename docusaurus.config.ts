@@ -2,7 +2,6 @@ import type * as Preset from '@docusaurus/preset-classic'
 import type { Config } from '@docusaurus/types'
 import { themes } from 'prism-react-renderer'
 import social from './data/social'
-import type { GiscusConfig } from './src/components/Comment'
 
 const config: Config = {
   title: 'Eliziane',
@@ -126,7 +125,7 @@ const config: Config = {
       categoryId: 'DIC_kwDOF7NJDM4CPK95',
       theme: 'light',
       darkTheme: 'dark_dimmed',
-    } satisfies Partial<GiscusConfig>,
+    },
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
