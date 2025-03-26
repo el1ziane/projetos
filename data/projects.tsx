@@ -1,11 +1,11 @@
 export const projects: Project[] = [
   {
-    title: 'Pequeno Site de Kuizuo',
-    description: '🦖 Blog pessoal baseado no gerador de sites estáticos Docusaurus',
-    preview: '/img/project/blog.png',
-    website: 'https://kuizuo.cn',
+    title: 'HortiControle',
+    description: 'Sistema desenvolvido para o estágio obrigatório da facultade de Engenharia de Software',
+    preview: '/img/project/dashboard.png',
+    website: 'https://el1ziane.vercel.app/blog/hortiControle',
     source: 'https://github.com/kuizuo/blog',
-    tags: ['opensource', 'design', 'favorito'],
+    tags: ['programação', 'design', 'produto'],
     type: 'web',
   },
   {
@@ -17,24 +17,7 @@ export const projects: Project[] = [
     tags: ['opensource', 'favorito'],
     type: 'web',
   },
-  {
-    title: 'Youni (Plataforma Social Universitária)',
-    description: 'Aplicativo de rede social universitária baseado em React Native + NestJs',
-    preview: '/img/project/youni.png',
-    website: 'https://youni.vercel.app',
-    source: 'https://github.com/kuizuo/youni',
-    tags: ['grande', 'produto'],
-    type: 'web',
-  },
-  {
-    title: 'nest-vben-admin',
-    description: 'Sistema de gerenciamento de permissões com frontend e backend separados usando NestJs + Vben Admin',
-    preview: '/img/project/nest-vben-admin.png',
-    website: 'https://admin.kuizuo.cn',
-    source: 'https://github.com/kuizuo/nest-vben-admin',
-    tags: ['opensource', 'favorito', 'produto', 'grande'],
-    type: 'web',
-  },
+
   {
     title: 'Servidor de API',
     description: '🔗 Site de serviço de API baseado em Nuxt',
@@ -52,7 +35,7 @@ export type Tag = {
   color: string
 }
 
-export type TagType = 'favorito' | 'opensource' | 'produto' | 'design' | 'grande' | 'pessoal'
+export type TagType = 'favorito' | 'opensource' | 'produto' | 'design' | 'programação' | 'pessoal'
 
 export type ProjectType = 'web' | 'app' | 'comercial' | 'pessoal' | 'brinquedo' | 'outro'
 
@@ -96,9 +79,9 @@ export const Tags: Record<TagType, Tag> = {
     description: 'Sites bem projetados!',
     color: '#a44fb7',
   },
-  grande: {
-    label: 'Grande',
-    description: 'Projetos grandes, com muitas páginas',
+  programação: {
+    label: 'Programação',
+    description: 'Projetos de programação',
     color: '#8c2f00',
   },
   pessoal: {
